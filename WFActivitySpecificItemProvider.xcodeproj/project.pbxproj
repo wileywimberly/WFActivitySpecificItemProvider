@@ -18,6 +18,7 @@
 		B8708B11166DB123005A2B2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8708B10166DB123005A2B2C /* Default-568h@2x.png */; };
 		B8708B14166DB123005A2B2C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8708B12166DB123005A2B2C /* MainStoryboard.storyboard */; };
 		B8708B17166DB123005A2B2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8708B16166DB123005A2B2C /* ViewController.m */; };
+		B8708B27166DB43E005A2B2C /* WFActivitySpecificItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = B8708B26166DB43E005A2B2C /* WFActivitySpecificItemProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B8708B13166DB123005A2B2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B8708B15166DB123005A2B2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B8708B16166DB123005A2B2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8708B25166DB43E005A2B2C /* WFActivitySpecificItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFActivitySpecificItemProvider.h; sourceTree = "<group>"; };
+		B8708B26166DB43E005A2B2C /* WFActivitySpecificItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFActivitySpecificItemProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		B8708B00166DB123005A2B2C /* WFActivitySpecificItemProvider */ = {
 			isa = PBXGroup;
 			children = (
+				B8708B25166DB43E005A2B2C /* WFActivitySpecificItemProvider.h */,
+				B8708B26166DB43E005A2B2C /* WFActivitySpecificItemProvider.m */,
 				B8708B09166DB123005A2B2C /* AppDelegate.h */,
 				B8708B0A166DB123005A2B2C /* AppDelegate.m */,
 				B8708B12166DB123005A2B2C /* MainStoryboard.storyboard */,
@@ -176,6 +181,7 @@
 				B8708B07166DB123005A2B2C /* main.m in Sources */,
 				B8708B0B166DB123005A2B2C /* AppDelegate.m in Sources */,
 				B8708B17166DB123005A2B2C /* ViewController.m in Sources */,
+				B8708B27166DB43E005A2B2C /* WFActivitySpecificItemProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				B8708B1C166DB123005A2B2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
